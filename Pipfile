@@ -1,0 +1,26 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+flake8 = "*"
+
+[packages]
+django = '<3'
+djangorestframework = "*"
+django-rest-swagger = "*"
+django-allauth = "*"
+django-cors-headers = "*"
+django-rest-auth = "*"
+django-silk = "*"
+djangorestframework-simplejwt = "*"
+djangorestframework-jwt = "*"
+jsonfield = "*"
+django-ftpserver = "*"
+django-storages = "*"
+kombu = "*"
+
+
+[requires]
+python_version = "3.7"
