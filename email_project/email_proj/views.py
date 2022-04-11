@@ -24,14 +24,14 @@ def index(request):
     html_message = loader.render_to_string(
         'email_proj/message.html',
         {
-            'name': 'Sukanya',
+            'name': 'Recipient Name',
             'body':  'You have received this prestigious email!',
         })    
     send_mail(
         'Congratulations!',
         'You are lucky to recieve this mail.',
-        'sukanyasurendrapai@gmail.com',
-        ['sukanyasurendrapai@gmail.com'],
+        'from@example.com', # Update this with your mail id
+        ['to@example.com']  # Update this with the recipients mail id
         html_message=html_message,
         fail_silently=False,
     )
