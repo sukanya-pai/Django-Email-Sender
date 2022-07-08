@@ -1,0 +1,14 @@
+Previously:
+- The project used Python 3.7
+- The code to send the email was present in "email_proj" app.
+- The endpoint was http://127.0.0.1:8000/api
+- It made use of Google "Less secure app access" option of the Google Account. Google has now disabled this option as part of security measures.
+
+In this version:
+- Updated Python to v3.8
+- The Django app name is updated from "email_proj" to "email_sender_app"
+- Updated endpoint to from http://127.0.0.1:8000/api to http://127.0.0.1:8000/api/send-mail
+- Added TODO comments so that its easy to identify where the developer has to make changes
+- Updated README with steps to use Google App password instead of "Less secure app access" of Google.
+- Removed unnecessary imports and comments and added .gitignore file
+
