@@ -7,7 +7,7 @@ verify_ssl = true
 flake8 = "*"
 
 [packages]
-django = '<3'
+django = '<4'
 djangorestframework = "*"
 django-rest-swagger = "*"
 django-allauth = "*"
